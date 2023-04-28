@@ -22,7 +22,7 @@ $products = $productMgr->getAll();
     <li class="list-group-item">Brand :<?php echo $product -> marca?></li>
   </ul>
   <div class="card-body">
-    <a href="<?php echo 'http://localhost/Clothe-u_Finale/shop?page=view-product&id='.$product ->id ?>" class="card-link">Card link</a>
+    <a href="<?php echo 'http://localhost/Clothe-u_Finale/?page=view-product.php&id='.$product ->id ?>" class="card-link">Card link</a>
     <a href="" class="card-link">Another link</a>
   </div>
 </div>
